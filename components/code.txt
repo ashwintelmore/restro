@@ -1,0 +1,16 @@
+{count > 0 ? (
+        <View style={styles.bottomContainer}>
+          <View>
+            <Text style={styles.bottomContainertxt1}>
+              {count} Items Selected
+            </Text>
+            <View style={styles.bottominnerContainer}>
+              <Text style={styles.bottomContainertxt1}>Total</Text>
+              <Text style={styles.bottomContainertxt1}>RS-/</Text>
+            </View>
+          </View>
+          <TouchableOpacity>
+            <Text style={styles.bottomContainertxt2}>View Cart</Text>
+          </TouchableOpacity>
+        </View>
+      ) : null}
